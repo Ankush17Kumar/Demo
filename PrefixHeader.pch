@@ -1,0 +1,15 @@
+
+
+#ifndef Assignment_PrefixHeader_pch
+#define Assignment_PrefixHeader_pch
+#import "AFNetworking.h"
+#import "API.h"
+
+
+#define KEY_LAT @"lat"
+#define KEY_LONG @"long"
+#define KEY_GOOGLE_API @"AIzaSyCMKUZ1WdcUpkz2fHOppTQnZbe08-zX06c"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#endif

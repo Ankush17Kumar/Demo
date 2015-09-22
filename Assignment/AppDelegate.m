@@ -70,8 +70,6 @@
     NSLog(@"%d",status);
     if (status == kCLAuthorizationStatusDenied)
     {
-        [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"SendGeo"];
-        
         NSLog(@"Don't Allow");
         NSLog(@"inside d delegate %f",locationManager.location.coordinate.latitude);
         NSLog(@"inside d delegate %f",locationManager.location.coordinate.longitude);
